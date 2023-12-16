@@ -1,0 +1,28 @@
+.popup{
+  position: fixed;
+  left: 60%;
+  top: 65%;
+  width: 500px;
+  height: 200px;
+  //background-color: #eaeef1;
+  background-image:url("../../../../assets/images/tea3.png");
+  background-position: bottom;
+  border-radius: 14px;
+  //display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+.popup div{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.closePopUp{
+  font-size: 30px;
+  right: 35px;
+  top: -10px;
+  cursor: pointer;
+}

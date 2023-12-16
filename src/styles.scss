@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+.page-body{
+  min-height: calc(100vh - 96px);
+}
+#accordion .ui-accordion-header {
+  position: relative;
+  padding: 5px;
+}
+#accordion .ui-accordion-header-icon {
+  content: '';
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 13px;
+  background: url(assets/images/next.png) 50% 50% no-repeat;
+}
+#accordion .ui-accordion-header-active .ui-accordion-header-icon {
+  background-image: url(assets/images/down.png);
+}
+
+.slick-prev::before {
+  content: url("assets/images/arrowleft.png");
+  opacity: unset;
+  line-height: unset;
+}
+
+.slick-prev {
+  left: 20px;
+  z-index: 100;
+}
+
+.slick-next::before {
+  content: url("assets/images/arrowright.png");
+  opacity: unset;
+  line-height: unset;
+}
+
+.slick-next {
+  right: 40px;
+}
+
+.hvr-shutter-in-vertical:before{
+  background-color: #0d6cf8;
+}
+
+
+
+
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

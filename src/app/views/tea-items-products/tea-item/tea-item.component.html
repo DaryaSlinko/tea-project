@@ -1,0 +1,10 @@
+<div class="col">
+  <div class="card h-100 w-100 wow animate__pulse" style="width: 18rem;">
+    <a href="#" class="imageOpen"> <img [src]="item.image" class="card-img-top" alt="..."> </a>
+    <div class="card-body p-3">
+      <h5 class="card-title fw-semibold">{{item.title}}</h5>
+      <p class="card-text ">{{item.description | textSlicePipe }}</p>
+      <a [routerLink]="['/tea-product', item.id]" class="btn btn-primary px-5 hvr-float-shadow">Подробнее</a>
+    </div>
+  </div>
+</div>

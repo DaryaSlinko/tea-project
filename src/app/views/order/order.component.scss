@@ -1,0 +1,21 @@
+.popupIfError, .popupIfSuccess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 270px;
+  left: calc(50% - 210px);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 40px;
+  border-radius: 14px;
+  background-image:url("../../../assets/images/tea3.png");
+  background-position: center;
+}
+.popupIfError svg, .popupIfSuccess svg{
+  right: 20px;
+  top: 10px;
+  position: absolute;
+  fill: white;
+}

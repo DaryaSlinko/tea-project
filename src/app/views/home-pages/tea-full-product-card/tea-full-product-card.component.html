@@ -1,0 +1,13 @@
+
+
+  <div class="page-body card h-100 w-100 wow animate__pulse" style="width: 18rem;">
+
+   <div class="text-center"><img [src]="product.image" class="card-img-top w-25 " alt="..."></div>
+    <div class="card-body ">
+      <h5 class="card-title fw-semibold ms-5 ">{{product.title}}</h5>
+      <p class="card-text p-5">{{product.description }}</p>
+      <div class="text-center"><a class="btn btn-primary px-5 hvr-float-shadow text-decoration-none" (click)="addToCart(product.title)">Купить</a></div>
+    </div>
+  </div>
+
+
